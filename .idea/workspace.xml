@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d951bb33-1a25-4309-ac2a-88bd427b7863" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/udp/Example1_udp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udp/Example1_udp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udp/Example1_udp_server_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udp/Example2_udp_unix_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udp/Example2_udp_unix_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocking/example4_nonblock_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsp/example3_tcp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsp/example3_tcp_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example1_udp_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example1_udp_server.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/discription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/discription.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,15 +41,19 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Python_Advance/blocking&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Python_Advance\blocking" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\Python_Advance\udp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Example2_udp_unix_server">
+  <component name="RunManager" selected="Python.example3_tcp_client">
     <configuration name="Example1_udp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Advance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,27 +67,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\GitHub\Python_Advance\udp\Example1_udp_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example1_udp_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Advance" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\GitHub\Python_Advance\udp\Example1_udp_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,12 +117,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="example3_tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Advance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tsp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tsp/example3_tcp_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example3_tcp_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Advance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tsp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tsp/example3_tcp_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example3_tcp_client" />
+        <item itemvalue="Python.example3_tcp_server" />
         <item itemvalue="Python.Example2_udp_unix_server" />
         <item itemvalue="Python.Example1_udp_client" />
         <item itemvalue="Python.Example1_udp_server_loop" />
-        <item itemvalue="Python.Example1_udp_server" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +200,24 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/udp/Example2_udp_unix_server.py</url>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tsp/example3_tcp_server.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tsp/example3_tcp_client.py</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tsp/example3_tcp_server.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tsp/example3_tcp_server.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
